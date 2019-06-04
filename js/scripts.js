@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $("#paragraph1").click(function(){
+    $("p#paragraph1").removeClass();
+    $("p#paragraph1").addClass("add-background");
+  });
+  $("#paragraph2").click(function(){
+    $("p#paragraph2").removeClass();
+    $("p#paragraph2").addClass("add-background");
+  });
+});
